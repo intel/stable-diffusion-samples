@@ -4,7 +4,7 @@ on:
 jobs:
   Trivy_action:
     name: Build
-    runs-on: "sandbox.prod.amr.dind"
+    runs-on: "ubuntu-latest"
     container:
       image: amr-registry.caas.intel.com/rbhe-public/trivy-build-agent:latest    
     steps:
